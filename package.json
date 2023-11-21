@@ -13,18 +13,18 @@
     "browserify",
     "javascript"
   ],
-  "homepage": "https://github.com/blinkhash/blinkhash-utxo-lib",
+  "homepage": "https://github.com/balaw/corehash-utxo-lib",
   "bugs": {
-    "url": "https://github.com/blinkhash/blinkhash-utxo-lib/issues"
+    "url": "https://github.com/balaw/corehash-utxo-lib/issues"
   },
   "license": "MIT",
   "author": {
-    "name": "Nick Sarris"
+    "name": "balaw and black maria"
   },
   "scripts": {
     "coverage-report": "nyc report --reporter=lcov",
     "coverage-html": "nyc report --reporter=html",
-    "coverage": "BLINKHASH_UTXO_LIB_TEST_EXPECTED_COUNT=3439 nyc --check-coverage --branches 90 --functions 90 mocha --recursive",
+    "coverage": "COREKHASH_UTXO_LIB_TEST_EXPECTED_COUNT=3439 nyc --check-coverage --branches 90 --functions 90 mocha --recursive",
     "integration": "mocha test/integration/",
     "standard": "standard",
     "test": "npm run standard && npm run coverage",
@@ -33,7 +33,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/blinkhash/blinkhash-utxo-lib.git"
+    "url": "https://github.com/balaw/corehash-utxo-lib.git"
   },
   "files": [
     "src"
